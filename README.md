@@ -17,7 +17,7 @@ The pipeline is based on OpenMVG’s pipeline and includes the following modules
 1. [OpenMVG](https://github.com/openMVG/openMVG/)
 2. [Boost](http://www.boost.org/)
 3. [OpenCV](http://opencv.org/)
-4. [Eigen](eigen.tuxfamily.org/)
+4. [Eigen](http://eigen.tuxfamily.org/)
 
 ## Citations
 1. Adaptive structure from motion with a contrario model estimation. Pierre Moulon, Pascal Monasse, and Renaud Marlet. In ACCV, 2012.
