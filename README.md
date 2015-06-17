@@ -1,4 +1,5 @@
 # DenseCorrespodences
+## Introduction
 The objective of this project was to apply SIFT-flow into 3D reconstruction. The SIFT-flow and scale propagation algorithms were integrated into an existing 3D reconstruction pipeline, provided by OpenMVG. Part of the SIFT-flow code was available in C++ and the rest had to be converted from Matlab, in order to be fitted in the pipeline and for better performance.
 ## The 3D Reconstruction Pipeline
 The pipeline is based on OpenMVG’s pipeline and includes the following modules:
@@ -11,6 +12,17 @@ The pipeline is based on OpenMVG’s pipeline and includes the following modules
     * Optionally filter matches from pixels that are in textureless regions.
     * Apply geometric filtering. Using RANSAC on the matches of each image pair to find the corresponding Fundamental Matrix. A pair of matching points that is too far from the corresponding epipolar lines are than filtered out.
 3.	Incremental SfM – Calculate the camera’s 3D poses and the scene’s 3D point cloud from the image matches.
+
+## Dependencies
+1. [OpenMVG](https://github.com/openMVG/openMVG/)
+2. [Boost](http://www.boost.org/)
+3. [OpenCV](http://opencv.org/)
+4. [Eigen](eigen.tuxfamily.org/)
+
+## Citations
+1. Adaptive structure from motion with a contrario model estimation. Pierre Moulon, Pascal Monasse, and Renaud Marlet. In ACCV, 2012.
+2. C. Liu, J. Yuen, and A. Torralba, “SIFT flow: Dense correspondence across scenes and its applications,” Trans. Pattern Anal. Mach. Intell., vol. 33, no. 5, pp. 978–994, 2011.
+3. M. Tau and T. Hassner, Dense Correspondences Across Scenes and Scales. arXiv preprint arXiv:1406.6323, 24 Jun. 2014
 
 ## Results
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hPCFbbUbaYo
