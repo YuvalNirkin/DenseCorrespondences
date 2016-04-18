@@ -1,6 +1,15 @@
 # DenseCorrespodences
 ## Introduction
 The objective of this project was to apply SIFT-flow into 3D reconstruction. The SIFT-flow and scale propagation algorithms were integrated into an existing 3D reconstruction pipeline, provided by OpenMVG. Part of the SIFT-flow code was available in C++ and the rest had to be converted from Matlab, in order to be fitted in the pipeline and for better performance.
+
+If you find this code useful, please add reference to the following papers in your work:
+
+[1] M. Tau and T. Hassner, Dense Correspondences Across Scenes and Scales. IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI) 38(5): 875-888 (2016)
+[2] C. Liu, J. Yuen, and A. Torralba, “SIFT flow: Dense correspondence across scenes and its applications,” Trans. Pattern Anal. Mach. Intell., vol. 33, no. 5, pp. 978–994, 2011.
+
+For more information, please see project page for scale propagation here:
+http://www.openu.ac.il/home/hassner/projects/scalemaps/
+
 ## The 3D Reconstruction Pipeline
 The pipeline is based on OpenMVG’s pipeline and includes the following modules:
 
@@ -22,7 +31,7 @@ The pipeline is based on OpenMVG’s pipeline and includes the following modules
 ## Citations
 1. Adaptive structure from motion with a contrario model estimation. Pierre Moulon, Pascal Monasse, and Renaud Marlet. In ACCV, 2012.
 2. C. Liu, J. Yuen, and A. Torralba, “SIFT flow: Dense correspondence across scenes and its applications,” Trans. Pattern Anal. Mach. Intell., vol. 33, no. 5, pp. 978–994, 2011.
-3. M. Tau and T. Hassner, Dense Correspondences Across Scenes and Scales. arXiv preprint arXiv:1406.6323, 24 Jun. 2014
+3. M. Tau and T. Hassner, Dense Correspondences Across Scenes and Scales. IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI) 38(5): 875-888 (2016)
 
 ## Results
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hPCFbbUbaYo
