@@ -5,6 +5,7 @@ The objective of this project was to apply SIFT-flow into 3D reconstruction. The
 If you find this code useful, please add reference to the following papers in your work:
 
 [1] M. Tau and T. Hassner, Dense Correspondences Across Scenes and Scales. IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI) 38(5): 875-888 (2016)
+
 [2] C. Liu, J. Yuen, and A. Torralba, “SIFT flow: Dense correspondence across scenes and its applications,” Trans. Pattern Anal. Mach. Intell., vol. 33, no. 5, pp. 978–994, 2011.
 
 For more information, please see project page for scale propagation here:
