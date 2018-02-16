@@ -1,5 +1,5 @@
 # DenseCorrespodences
-![alt text](https://yuvalnirkin.github.io/assets/img/projects/dense_correspondences_teaser/dense_correspondences_teaser_teaser.jpg "Teaser")
+![alt text](https://yuvalnirkin.github.io/assets/img/projects/dense_correspondences/dense_correspondences_teaser.jpg "Teaser")
 
 Created by Yuval Nirkin.
 
