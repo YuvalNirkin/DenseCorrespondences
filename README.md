@@ -1,4 +1,10 @@
 # DenseCorrespodences
+![alt text](https://yuvalnirkin.github.io/assets/img/projects/dense_correspondences_teaser/dense_correspondences_teaser_teaser.jpg "Teaser")
+
+Created by Yuval Nirkin.
+
+[nirkin.com](http://www.nirkin.com/)
+
 ## Introduction
 The objective of this project was to apply SIFT-flow into 3D reconstruction. The SIFT-flow and scale propagation algorithms were integrated into an existing 3D reconstruction pipeline, provided by OpenMVG. Part of the SIFT-flow code was available in C++ and the rest had to be converted from Matlab, in order to be fitted in the pipeline and for better performance.
 
